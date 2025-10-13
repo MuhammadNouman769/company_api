@@ -23,3 +23,39 @@ This project is built using **Django REST Framework (DRF)** and demonstrates CRU
 ---
 
 ## 📂 Project Structure
+
+
+companyapi/
+│
+├── .venv/                  # Python virtual environment
+├── .vscode/                # VS Code settings
+├── apps/                   # Django apps
+│   ├── company_api/        # Company app
+│   │   ├── migrations/     # Migration files
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   │
+│   └── employees_api/      # Employee app
+│       ├── migrations/
+│       ├── admin.py
+│       ├── apps.py
+│       ├── models.py
+│       ├── serializers.py
+│       ├── urls.py
+│       └── views.py
+│
+├── core/                   # Project core (settings, urls, wsgi/asgi)
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+│
+├── db.sqlite3              # Default SQLite database
+├── manage.py               # Django management script
+├── requirements.txt        # Project dependencies
+└── README.md               # Project documentation
