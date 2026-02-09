@@ -24,13 +24,13 @@ This project is ideal for:
 
 ## 🚀 Features
 
-* ✅ Company Management (CRUD)
-* ✅ Employee Management (CRUD)
-* ✅ Relational Data (Company ↔ Employees)
-* ✅ Django Admin Panel
-* ✅ RESTful API Design
-* ✅ Swagger & ReDoc API Documentation
-* ✅ SQLite3 Database (easy to switch to PostgreSQL)
+*  Company Management (CRUD)
+*  Employee Management (CRUD)
+*  Relational Data (Company ↔ Employees)
+*  Django Admin Panel
+*  RESTful API Design
+*  Swagger & ReDoc API Documentation
+*  SQLite3 Database (easy to switch to PostgreSQL)
 
 ---
 
