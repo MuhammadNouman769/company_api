@@ -36,13 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'phonenumber_field',   
-    'django_countries',  
+    'django.contrib.staticfiles',  
     'rest_framework',
     'drf_spectacular', 
-    'apps.company_api',
-    'apps.employees_api',
+    'apps.api',
 ]
 
 MIDDLEWARE = [
@@ -136,16 +133,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-# Default country (for parsing numbers without +code)
-PHONENUMBER_DEFAULT_REGION = 'PK'   # or 'US', 'IN', etc.
-
-# Display format in Django admin/forms (E164 is +923001234567)
-PHONENUMBER_DB_FORMAT = 'E164'
-PHONENUMBER_DEFAULT_FORMAT = 'E164'
-
-# (Optional) Accept numbers without country code by default
-PHONENUMBER_DEFAULT_REGION = 'PK'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
